@@ -27,7 +27,7 @@ public class LazerMother : MonoBehaviour
    * レーザー生成関数
    * @param {Vector3} origin - レーザーの原点
    * @param {Vector3} direction - レーザーの方向
-   * @param {int} n - 何本目か(0はじまり)
+   * @param {Material} m - レーザーの最初のマテリアル
   **/
   public void creat(Vector3 origin, Vector2 direction, Material m){
     lazers = new GameObject[REFLECT_NUM + 1];

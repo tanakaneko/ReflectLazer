@@ -7,7 +7,7 @@ public class LazerStarter : MonoBehaviour
   [SerializeField] private GameObject lazerMother;
   [SerializeField] private Vector2 INITIAL_DIRECTION = new Vector2(0.3f,1); //最初の方向
   [SerializeField] private  float ROTATE_SPEED = 0.04f;  //回転速度
-  [SerializeField] private Material START_COLOR;
+  [SerializeField] private Material START_COLOR;  //最初のマテリアル
   private GameObject newLazer;
   private LazerMother lazerMotherCS;
 
